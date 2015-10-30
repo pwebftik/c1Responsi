@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tugas Responsi 2 </title>
+</head>
+	<body background="picture/opmbg.jpg" bgcolor="#F4F4F4" text="black">
+		<p align="center">
+		<strong>ONE-PUNCH
+			<img src ="picture/stmface.png" align="bottom" width="150" height="200" alt="awesome">ACCOUNT</strong>
+			<br>
+			<h2 align="left" style="color:white">DAFTAR SEKARANG</h2>
+		</p>
+		<form style="color:white">
+	Nama Depan :
+	<input type="text" name="namadepan">
+	<br><br>
+	Nama Belakang :
+	<input type="text" name="namabelakang">
+	<br><br>
+	E-mail :
+	<input type="text" name="email">
+	<br><br>
+	Password :
+	<input type="password" name="password">
+	<br><br>
+
+	<label>
+	Pria :
+	<input type="radio" name="Sex" value="pria">
+	</label>
+	
+	<label>
+	Wanita :
+	<input type="radio" name="Sex" value="wanita">
+	</label>
+	<br><br>
+
+	Kendaraan yang anda miliki : <br>
+	Sepeda
+	<input type="checkbox" name="sepeda">
+	<br>
+	Motor
+	<input type="checkbox" name="motor">
+	<br>
+	Mobil
+	<input type="checkbox" name="mobil">
+	<br>
+	Pesawat
+	<input type="checkbox" name="pesawat">
+	<br>
+	Helikopter
+	<input type="checkbox" name="helikopter">
+	<br><br>
+
+	Negara Asal :
+	<select name="Negara">
+		<option value="indonesia" >INDONESIA
+		<option value="jepang">JEPANG
+		<option value="amerika" >AMERIKA
+		</select>
+			<br><br>
+
+
+			<input type="button" value="Selesai">
+
+			<button type="reset">Ulangi</button>
+			<p>
+
+</form>
+		</body>
+</html>
