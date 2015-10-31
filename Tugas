@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="text/css" icon="icon" href="ab.jpg" type="image/x-icon">
+
+<title>Belajar PW</title>
+</head>
+<body background="ac.jpg" text="black">
+<center><table border="1">
+<tr height="150" bgcolor="#e5e5e5">
+<td colspan="3" valign="bottom" align="left">
+
+<table border="1" width="400" bgcolor="black"">
+<h1>BIODATA PENGISIAN</h1>
+
+<fieldset>
+<legend><h3>
+Daftar Dulu</h3>
+</legend>
+<form>
+Nama Depan:
+<input type="text" name="namadepan"><br>
+Nama Belakang:
+<input type="text" name="namabelakang"><br>
+Password:
+<input type="password" name="password"><br>
+
+</form>
+
+<form>
+Kendaraan yang dimiliki:<br>
+Sepeda:
+<input type="checkbox" name="sepeda">
+Motor:
+<input type="checkbox" name="motor">
+Mobil:
+<input type="checkbox" name="mobil"><br>
+
+Type Mobil:<select name="mobil">
+<option value="volvo">Volvo
+<option value="peugeot">Peugeot
+<option value="fiat">Fiat
+<option selected="selected" value="jaguar">Jaguar
+</select><br>
+
+Jenis kelamin:<br>
+Pria:
+<input type="radio" name="sex" value="pria">
+Wanita:
+<input type="radio" name="sex" value="wanita"><br><br>
+
+<input type="reset" value="ULANGI">
+<button>SIMPAN</button>
+</form>
+</fieldset>
+</table>
+</table>
+</body><footer>Sebuah gambar
+<img src="06.gif" align="bottom" width="100" height="100" alt="ini gambar animasi bergerak">
+diantara text
+</p></footer></center>
+</html>
