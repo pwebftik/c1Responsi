@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	body{
+	background: #00ff00 url("image/dark-wood.jpg") no-repeat fixed center;
+	}
+
+	p.normal {font-weight: normal;}
+	p.tebal {font-weight: bold;}
+	p.teballl{font-weight: 900;}
+	p.lengkap{
+		font: italic small-caps 900 12xp arial; }
+
+	p.borderous { border-style: double;
+		border-width: 5px 10px 1px medium;
+		border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255); }
+
+
+	p.margin {margin: 2cm 4cm 3cm 80px}
+
+	td {padding: 1.5cm}
+	td.value2 {padding: 0.5cm 2.5cm}
+
+	ul { 
+		list-style: square outside url("image/1.jpg"); 
+	}
+
+	img.x1{
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 1; }
+	img.x2{
+		position: absolute;
+		left: 0;
+		top: 100;
+		z-index: -1; }
+
+	a:link {color: #ff0000}
+	a.one:visited {color: #0000ff}
+	a.one:hover {color: #ffcc00}
+	a.two:visited {color: #0000ff}
+	a.two:hover {font-size: 150%}
+	a.three:visited {color: #0000ff}
+	a.three:hover {background: #66ff66}
+	a.four:visited {color: #0000ff}
+	a.four:hover {font-family: fixedsys}
+	a.five:visited {color: #0000ff; text-decoration: line-through}
+	a.five:hover {text-decoration: overline}
+	*{margin: 0;padding: 0;}
+a{
+text-decoration: none;
+color: orange;
+}
+.bulan{
+position: fixed;
+width: 15px;
+height: 15px;
+background: orange;
+left: 70px;
+top: 50px;
+background: yellow;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+filter: alpha(opacity=10);
+opacity: .1;
+border-radius: 50%;
+-webkit-animation: bercahaya 1s linear infinite;
+-moz-animation: bercahaya 3s linear infinite;
+-ms-animation: bercahaya 1s linear infinite;
+-o-animation: bercahaya 1s linear infinite;
+animation: bercahaya 3s linear infinite;
+}
+.awan{
+width: 200px;
+height: 60px;
+background:#555;
+border-radius: 200px;
+position: relative;
+z-index: 9999;
+}
+.awan:before,
+.awan:after{
+content: ' ';
+position: absolute;
+background: #555;
+width: 150px;
+height: 80px;
+position: absolute;
+top: -25px;
+left: 10px;
+border-radius:100px;
+text-transform: rotate(30deg);
+}
+.awan:after{
+width: 120px;
+height: 120px;
+top: -55px;
+left: auto;
+right: 15px;
+}
+.no1{
+top: 90px;
+-webkit-animation: jalankanawan 15s linear infinite;
+-moz-animation: jalankanawan 15s linear infinite;
+-ms-animation: jalankanawan 15s linear infinite;
+-o-animation: jalankanawan 15s linear infinite;
+animation: jalankanawan 15s linear infinite;
+}
+.no2{
+left: 200px;
+-webkit-transform: scale(0.6);
+-moz-transform: scale(0.6);
+-o-transform: scale(0.6);
+-ms-transform: scale(0.6);
+transform: scale(0.6);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);
+opacity: 0.6;
+-webkit-animation: jalankanawan 25s linear infinite;
+-moz-animation: jalankanawan 25s linear infinite;
+-ms-animation: jalankanawan 25s linear infinite;
+-o-animation: jalankanawan 25s linear infinite;
+animation: jalankanawan 25s linear infinite;
+}
+.no3{
+left: -250px;
+top: -200px;
+-webkit-transform: scale(0.8);
+-moz-transform: scale(0.8);
+-o-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+filter: alpha(opacity=80);
+opacity: 0.8;
+-webkit-animation: jalankanawan 20s linear infinite;
+-moz-animation: jalankanawan 20s linear infinite;
+-ms-animation: jalankanawan 20s linear infinite;
+-o-animation: jalankanawan 20s linear infinite;
+animation: jalankanawan 20s linear infinite;
+}
+.no4{
+left: 470px;
+top: -250;
+-webkit-transform: scale(0.75);
+-moz-transform: scale(0.75);
+-o-transform: scale(0.75);
+-ms-transform: scale(0.75);
+transform: scale(0.75);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+filter: alpha(opacity=75);
+opacity: 0.75;
+-webkit-animation: jalankanawan 18s linear infinite;
+-moz-animation: jalankanawan 18s linear infinite;
+-ms-animation: jalankanawan 18s linear infinite;
+-o-animation: jalankanawan 18s linear infinite;
+animation: jalankanawan 18s linear infinite;
+}
+.no5{
+left: -150px;
+top: -150px;
+-webkit-transform: scale(0.8);
+-moz-transform: scale(0.8);
+-o-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+filter: alpha(opacity=80);
+opacity: 0.8;
+-webkit-animation: jalankanawan 20s linear infinite;
+-moz-animation: jalankanawan 20s linear infinite;
+-ms-animation: jalankanawan 20s linear infinite;
+-o-animation: jalankanawan 20s linear infinite;
+animation: jalankanawan 20s linear infinite;
+}
+@-webkit-keyframes jalankanawan{
+0% { margin-left: 1280px;}
+100%{margin-left: -1280px;}
+}
+@-moz-keyframes jalankanawan{
+0% { margin-left: 1280px;}
+100%{margin-left: -1280px;}
+}
+@-o-keyframes jalankanawan{
+0% { margin-left: 1280px;}
+100%{margin-left: -1280px;}
+}
+@-webkit-keyframes bercahaya{
+0% {opacity: .6; box-shadow:3px 3px 35px 35px orange}
+100%{opacity: .7;box-shadow:3px 3px 40px 40px orange}
+}
+@-moz-keyframes bercahaya{
+0% {opacity: .6; box-shadow:3px 3px 35px 35px orange}
+100%{opacity: .7;box-shadow:3px 3px 40px 40px orange}
+}
+@-o-keyframes bercahaya{
+0% {opacity: .6; box-shadow:3px 3px 35px 35px orange}
+100%{opacity: .7;box-shadow:3px 3px 40px 40px orange}
+}
+}
+.menu{
+padding: 20px 50px;
+}
+.main{
+padding: 20px 50px;
+height: auto;
+}
+.main a{
+color: #666;
+}
+</style>
+	<meta charset="UTF-8">
+	<title> Mohammad Yasin </title>
+</head>
+<body>
+	<b>(1. Pengaturan Latar Belakang)</b>
+	<p>
+	<b>Catatan : </b>
+	Properti background-attachment dan background-position tidak bisa digunakan dalam browser Netscape 4.0.
+	</p>
+	<p>Ada Teks disini</p>
+	<p>Tulisan Terserah saja</p>
+	<p>yang penting ada tulisannya</p>
+
+	<br><br><br>
+	<b>(2. Penanganan font)</b>
+	<p class="normal">
+		Perhatikan paragraf ini</p>
+	<p class="tebal">
+		Bandingkan dengan paragraf diatasnya</p>
+	<p class="teballl">
+		Bandingkan yang ini juga</p>
+	<p class="lengkap">
+		paragraf dengan semua atribut font dimasukan</p>
+
+	<br><br><br>
+	<b>(3. Pembuatan Border)</b>
+	<p class="borderous"> <b> Catatan :</b> tidak didukung oleh internet explorer versi lama</p>
+
+	<br><br><br>
+	<b>(4. Pengaturan margin)</b>
+	<p class="margin"> Coba Anda kecilkan ukuran window broser agar terlihat lebih jelas perbedaanya.</p>
+	<p> This is a Paragraf</p>
+
+	<br><br><br>
+	<b>(5. Mengatur padding pada sel tabel)</b>
+	<TABLE border="1">
+		<tr>
+			<td> Ini adalah tabel dengan sel yang menggunakan padding sama pada setiap sisinya (1,5cm).</td>
+		</tr>
+	</TABLE>
+	<br>
+	<table border="1">
+		<tr>
+			<td class="value2"> bandingkan dengan tampilan tabel ini.padding atas bawah nilai 0,5cm, sedangkan padding kanan dan kiri nilainya 2,5cm.</td>
+		</tr>
+	</table>
+
+	<br><br><br>
+	<b>(6. Menggunakan list)</b>
+	<p> Disini menggunakan gambar sebagai bullet list.</p>
+	<ul>
+		<li> Kopi </li>
+		<li> Teh </li>
+		<li> Coca Cola </li>
+	</ul>
+
+	<br><br><br>
+	<b>(7. Elemen latar depan dan latar belakang)</b>
+	<h1>Sepertinya heading ini terhalang oleh gambar</h1>
+	<img class="x1" src="image/dark-wood.jpg" width="100" height="80">
+	<p>nilai default z-index adalah 0.z-index 1 memiliki prioritas lebih tinggi, sedangkan Z-index -1 memiliki prioritas lebih rendah.</p>
+	<p></p>
+	<img class="x2" src="image/dark-wood.jpg" width="100" height="80">
+	<p>Sekarang anda bisa bandingkan dengan tampilan di bagian bawah ini. apakah masih terhalang gambar?</p>
+
+	<br><br><br>
+	<b>(8. Mengubah Tampilan Link)</b>
+	<p>Gerakn pointer mouse di atas link-link dibawah ini untuk membuat link tersebut berubah tampilannya.</p>
+	<p><a class="one" href="hlm1.html"> Mengubah properti color. </a></p>
+	<p><a class="two" href="hlm2.html"> Mengubah properti Font-Size. </a></p>
+	<p><a class="three" href="hlm3.html"> Mengubah properti Background-color. </a></p>
+	<p><a class="four" href="hlm4.html"> Mengubah properti Font-Family. </a></p>
+	<p><a class="five" href="hlm5.html"> Mengubah properti Text-decoration. </a></p>
+
+<div id="langit">
+<div class="awan no1"></div>
+<div class="awan no2"></div>
+<div class="awan no3"></div>
+<div class="awan no4"></div>
+<div class="awan no5"></div>
+<div class="bulan"></div>
+</div>
+<div class="main">
+</div>
+</body>
+</html>
