@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsi bab 4</title>
+	<style type="text/css">/*Contoh pembuatan style sheet*/
+		body{background: #33FF00 url("image/bg1.jpg") no-repeat fixed center;}/* Materi bab 4 percobaan 1*/
+			p.normal {font-weight: normal;}/* Materi bab 4 percobaan 2*/
+			p.tebal {font-weight: bold;}
+			p.teballl {font-weight: 900;}
+			p.lengkap {font: italic small-caps 900 12px arial;}
+				p.borderous {border-style: double; border-width: 5px 10px 1px medium; border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255) } /* Materi bab 4 percobaan 3*/
+						p.margin {margin: 2cm 4cm 3cm 80px}
+							td {padding: 1.5cm}/* Materi bab 4 percobaan 4*/
+							td.value2 {padding: 0.5cm 2.5cm}
+								ul {list-style: square outside url("image/1.ico");}/* Materi bab 3 percobaan 5*/
+									img.x1 {position: absolute; right: 0; top: 0; z-index: 1;}/* Materi bab 3 percobaan 6*/
+									img.x2 {position: absolute; left: 0; top: 100; z-index: -1;}
+								
+		a:link {color: #ff0000}/* Materi bab 4 percobaan 7*/
+		a.one:visited {color: #0000ff}/* Materi bab 4 percobaan 8*/
+		a.one:hover {color: #ffcc00}
+		a.two:visited {color: #0000ff}
+		a.two:hover {font-size: 150%}
+		a.three:visited {color: #0000ff}
+		a.three:hover {background: #66ff66}
+		a.four:visited {color: #0000ff}
+		a.four:hover {font-family: fixedsys}
+		a.five:visited {color: #0000ff; text-decoration: line-through;}
+		a.five:hover {text-decoration: overline;} img.x2 {position: absolute; left: 0; top: 100; z-index: -1;}
+		
+		.accordian {
+width: 805px; height: 320px;
+ overflow: hidden;
+margin: 100px auto;}/* Style percobaan animasi*/
+.accordian ul {
+ width: 2000px;
+}
+.accordian li {
+ position: relative;
+ display: block;
+ width: 160px;
+ float: left;
+ 
+ border-left: 1px solid #888;
+ 
+transition: all 0.5s;
+ -webkit-transition: all 0.5s;
+ -moz-transition: all 0.5s;
+}
+.accordian ul:hover li {width: 40px;}
+.accordian ul li:hover {width: 640px;}
+.accordian li  img {
+ display: block;
+}
+.image_title {
+ background: rgba(0, 0, 0, 0.5);
+ position: absolute;
+ left: 0; bottom: 0; 
+width: 640px; 
+
+}
+.image_title a {
+ display: block;
+ color: #fff;
+ text-decoration: none;
+ padding: 20px;
+ font-size: 16px;
+}
+	</style>
+</head>
+<body>
+<h1>INI RESPONSI PRAKTIKUM BAB 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ini text</h1><!–Header & contoh text yg akan ditutupi gambar–>
+
+	<br><br><br>
+
+	<p class="borderous" ><b> Selamat Datang Di Website Kami </b></p><!–Contoh Percobaan 3–>
+	<br><br><br>
+	<h3 align="center">Pembuatan font</h3><!–Contoh Percobaan 2–>
+	<p class="normal">
+		Perhatikan paragraf ini</p>
+	<p class="tebal">
+		Bandingkan dengan paragraf diatasnya</p>
+	<p class="teballl">
+		Bandingkan yang ini juga</p>
+	<p class="lengkap">
+		paragraf dengan semua atribut font dimasukan</p>
+
+	<h3 align="center">Margin</h3><!–Contoh Percobaan 4–>
+	<p>Ini contoh paragraf yang tidak menggunakan margin</p>
+
+	<p class="margin"> Ini contoh paragraf yg menggunakan margin</p>
+
+	<br><br><br>
+
+	<h3 align="center">Padding</h3><!–Contoh Percobaan 5–>
+	<TABLE border="1">
+		<tr>
+			<td> Ini adalah tabel dengan sel yang menggunakan padding sama pada setiap sisinya (1,5cm).</td>
+		</tr>
+	</TABLE>
+	<br>
+	<table border="1">
+		<tr>
+			<td class="value2"> bandingkan dengan tampilan tabel ini.padding atas bawah nilai 0,5cm, sedangkan padding kanan dan kiri nilainya 2,5cm.</td>
+		</tr>
+	</table>
+
+	<br><br><br>
+	<h3 align="center">Fungsi Gambar Sebagai Bullet List</h3><!–Contoh Percobaan 6–>
+	
+	<ul>
+		<li> List1 </li>
+		<li> List2 </li>
+		<li> List3 </li>
+	</ul>
+
+	<br><br><br>
+	<h3 align="center">Element Latar Gambar</h3><!–Contoh Percobaan 7–>
+	<img class="x2" src="image/dn.gif" width="300" height="240">
+
+	<img class="x1" src="image/gambar1.jpg" width="100" height="80">
+	<p>Bandingkan gambar bergerak ini dengan gambar dipojok kanan atas web ini. Gambar mana yang tidak menutupi teks</p>
+	<p>Gambar bergerak ini menggunakan z-index=1</p>
+	<p>Sedangkan gambar yg di pojok kanan atas menggunakan z-index=(-1)</p>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<h3 align="center">Pembuatan link dengan efek tampilan yang berbeda</h3><!–Contoh Percobaan 8–>
+	
+	<p><a class="one" href="latihan3full.html" target="a_blank"> Link Warna </a></p>
+	<p><a class="two" href="latihan3full.html" target="a_blank"> Link font size </a></p>
+	<p><a class="three" href="latihan3full.html" target="a_blank"> Link Bg color </a></p>
+	<p><a class="four" href="latihan3full.html" target="a_blank"> Link font family </a></p>
+	<p><a class="five" href="latihan3full.html" target="a_blank"> Link Text-decoration. </a></p>	
+
+			<h2 align="center">List dan Link anime dengan Slide Gambar</h2><!–Contoh Pembuatan animasi–>
+	<div class="accordian">
+ <ul>
+  <li>
+   <div class="image_title">
+    <a href="#" target="_blank">Fullmetal Alchemist Brotherhood</a>
+   </div>
+   <a href="http://www.samehadaku.net/tag/fullmetal-alchemist-brotherhood-subtitle-indonesia" target="_blank">
+    <img src="image/fa.jpg"/>
+   </a>
+  </li>
+  <li>
+   <div class="image_title">
+    <a href="http://www.oploverz.net/sword-art-online/" target="_blank">Sword Art Online</a>
+   </div>
+   <a href="http://www.oploverz.net/sword-art-online/" target="_blank">
+    <img src="image/s1.jpg">
+   </a>
+  </li>
+  <li>
+   <div class="image_title">
+    <a href="http://www.oploverz.net/log-horizon/" target="_blank">Log Horizon</a>
+   </div>
+   <a href="http://www.oploverz.net/log-horizon/" target="_blank">
+    <img src="image/s5.jpg">
+   </a>
+  </li>
+                <li>
+   <div class="image_title">
+    <a href="http://www.oploverz.net/naruto-shippuden/" target="_blank">Naruto Shippuden</a>
+   </div>
+   <a href="http://www.oploverz.net/naruto-shippuden/" target="_blank">
+    <img src="image/nrt.jpg">
+   </a>
+  </li>
+  <li>
+   <div class="image_title">
+   <a href="http://www.oploverz.net/category/one-piece/" target="_blank">One Piece</a>
+   </div>
+   <a href="http://www.oploverz.net/category/one-piece/" target="_blank">
+    <img src="image/s3.jpg"/>
+   </a>
+  </li>
+ </ul>
+</div>
+</body>
+</html>
