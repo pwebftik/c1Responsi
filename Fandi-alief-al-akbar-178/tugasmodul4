@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>Masih belajar web</title>
+<style type=" text/css">
+body{
+background: #fff8ae url("06.gif") no-repeat fixed right;
+}
+</style>
+<style type=" text/css">
+p.normal{font-weight: normal;}
+p.tebal{font-weight: bold;}
+p.teballl{font-weight: 900;}
+p.lengkap{font: italic small-caps 900 12px arial;}
+</style>
+<style type=" text/css">
+
+p.borderous{
+border-style; double;
+border-width: 5px 10px 1px medium;
+border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+}
+</style>
+<style type=" text/css">
+p.margin {margin: 2cm 4cm 3cm 80px}
+</style>
+
+<style type="text/css">
+td {padding: 1.5cm}
+td.value2 {padding: 0.5cm 2.5cm}
+</style>
+
+<style type="text/css">
+ul{
+    list-style: square outside url("Hydrangeas.jpg");
+}
+</style>
+
+<style type="text/css">
+img.x1{
+position:absolute;
+left:0;
+top:0;
+z-index:1;
+}
+img.x2{
+position:absolute;
+left:0;
+top:100;
+z-index-1;
+}
+</style>
+
+<style type="text/css">
+a.link {color: #ff0000}
+a.one:visited {color: #ffcc00}
+a.one:hover {color: #0000ff}
+a.two:visited {color: #0000ff}
+a.two:hover {font-size: 150%}
+a.three:visited {color: #0000ff}
+a.three.hover {background: #66ff66}
+a.four:visited {color: #0000ff}
+a.four:hover {font-family: fixedsys}
+a.five:visited {color: #0000ff}; text-decoration: line through}
+a.five:hover {text-decoration: overline}
+</style>
+
+</head>
+<body>
+<p>
+<b>Catatan:</b>
+Properti background-attachment dan background-
+position tidak bisa digunakan dalam browser Netscape 4.0
+</p>
+<p> Ada teks disini</p>
+<p> Tuliskan terserah kalian</p>
+<P> Iyaa Tersarah Apa saja </p>
+<p> ini adalah Tulisan </p><br>
+
+<p class="normal">
+Perhatikan paragraf ini </p>
+<p class="tebal">
+bandingkan paragraf ini </p>
+<p class="teballl">
+Perhatikan juga paragraf ini </p>
+<p class="lengkap">
+Perhatikan paragraf ini dengan semua atribut font yang dimasukkan </p><br>
+
+<p class="borderous">
+<b>Catatan:</b> Tidak didukung oleh internet explorer versi lama</p>
+<br><br>
+<p> yang ini adalah paragraf biasa tanpa pengaturan margin.</p>
+<p class="margin">
+Bandingkan dengan tampilan paragraf ini, coba kecilkan ukuran window browser agar terlihat lebih jelas perbedaannya.</P>
+<p>This is a Paragraf
+</P>
+
+
+<table border="1">
+	<tr>
+	<td class="value2">
+	   Bandigkan dengan tampilan tabel  ini. padding atas dan bawah memiliki nilai 0.5cm,sedangkan padding kanan dan kiri nilainya 2.5cm.
+	   </td>
+	   </tr>
+	   </table>
+
+	   <p>disin anda menggunakan gambar berukuran kecil sebagai bullet untuk list.properti outside akan menyebabkan list menjadi lebih rapi bila terdiri dari atas item 
+yang berupa kalimat panjang dan window browser akan berukuran kecil. </p>
+
+<ul>
+        <li>kopi</li>
+		<li> teh</li>
+		<li> coca cola</li>
+</ul>
+
+<p><b>Catatan:</b>Netscape 4 tidak mendukung properti "z-index".</p>
+<h1>sepertinya heading in terhalang oleh gambar</h1>
+<img class="x1" src="user.bmp" width="100" height="80">
+<p>Nilai default z-index adalah 0. Z-
+index 1 memiliki prioritas lebih tinggi, sedangkan z-index -1 memiliki prioritas lebih rendah,</p>
+<p></p>
+<img class="x2" src="guest.bmp" width="100" height="80">
+<p>Sekarang  anda bisa membandingkan dengan tampilan di bagian bawah ini. apakah masih terhalang gambar?</p>
+
+<p>Gerakan pointer mouse diatas link-link dibawah ini untuk membuat link tersebut berubah tampilannya</p>
+         <p><a class="one" href="border.html">Mengubah properti color</a></p>
+             <p><a class="two" href="margin.html">mengubah properti font-size</a></p>
+               <p><a class="three" href="CSS.html">mengubah properti background</a></p>
+                <p><a class="four" href="list.html">mengubah properti font-family</a></p>
+                   <p><a class="five" href="elemen depan dan latar belakang.html">mengubah properti text-decoration</a></p>
+
+
+	   
+</body>
+</html>
