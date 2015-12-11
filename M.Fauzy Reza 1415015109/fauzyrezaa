@@ -1,0 +1,49 @@
+#transisi1
+{
+	width:120px;
+	height:120px;
+	background-color:#f00;
+	border:3px solid #00f;
+	padding:10px;
+	transition:width 2s;
+	}
+#transisi1:hover
+{
+	width:500px;
+}
+
+#transisi2
+{
+	width:120px;
+	height:120px;
+	background-color:#FFF;
+	border:5px solid #00f;
+	padding:10px;
+	transition:width 2s, height 2s;
+	-webkit-transition:width 2s, height 2s,
+	-webkit-transform 2s; 
+}
+#transisi2:hover
+{
+	width:150px;
+	height:150px;
+	transform:rotate(720deg);
+	-webkit-transform:rotate(720deg); 
+}
+
+#colorbackground 
+{
+  width:90%;
+  background:#black;
+  color:#white;
+  border:2px solid #222;
+  padding:15px;
+  font:bold 20px Sans-Serif;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+#colorbackground:hover 
+{
+  color:green;
+  background:yellow;
+} 
