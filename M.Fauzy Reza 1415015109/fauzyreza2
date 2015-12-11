@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M.Fauzy Reza</title>
+	<link rel="stylesheet" type="text/css" href="responsiw.css">
+</head>
+<body>
+	<div id="transisi1">M.Fauzy Reza</div>
+	<div id="transisi2">M.fauzyreza</div>
+	<div id="colorbackground">fauzyreza</div>
+</body>
+</html>
