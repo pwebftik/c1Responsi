@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M.Fauzy Reza</title>
+</head>
+<body>
+
+<?php 
+	echo "Hello World";
+
+	//test
+	#test
+	/*asdwa
+	asdwadsd*/
+	$x = 5 /*+15 */ +5;
+	echo $x;
+
+	$color = "red";
+	echo "my car is" . $color . "<br>";
+	echo "my house is" . $color . "<br>";
+	echo "my Boat is" . $color . "<br>";
+
+	$txt = "hello World";
+	$y = 5;
+	$w = 10.5;
+
+	$txt2="fauzyreza";
+	echo "nama saya $txt2!";
+
+	$txt3="fauzyreza";
+	echo "nama saya " . $txt . "!";
+
+	$x = 5;
+	$y = 4;
+	echo $x + $y;
+
+	echo strlen("Hello World!");
+
+	echo str_word_count("Hello World!");	
+
+	echo strrev("Hello World!");
+
+	echo strpos("hello world", "world");
+
+	echo str_replace("world", "Dolly" , "hello world");
+
+	function writeMassage(){
+		echo "fauzyreza";
+	}
+	writeMassage();
+
+	function familyName($fname){
+		echo "$fname Refsnes.<br>";
+	}
+
+	familyName("galuh");
+	familyName("udin");
+	familyName("banteng");
+	familyName("kucing");
+
+	function familyName2($fname,$year){
+		echo "$fname Refsnes. Born in $year . <br>";
+	}
+
+	familyName2("galuh","1996");
+	familyName2("udin","1997");
+	familyName2("banteng","1998");
+	familyName2("kucing","1999");
+
+	function setHeight($minHeight = 50){
+		echo "The height is : $minHeight <br>";
+	}
+
+	setHeight(350);
+	setHeight();
+	setHeight(135);
+	setHeight(80);	
+
+	function sum($x,$y){
+		$z = $x+$y;
+		return $z;
+	}
+	echo "5 + 10 = " . sum(5,10) . "<br>";
+	echo "7 + 13 = " . sum(7,13) . "<br>";
+	echo "2 + 4 = " . sum(2,4) . "<br>";
+
+ ?>
+
+
+</body>
+</html>
